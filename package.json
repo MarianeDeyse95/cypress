@@ -1,0 +1,20 @@
+{
+  "name": "curso_cypress",
+  "version": "1.0.0",
+  "description": "Curso cypress - talking about test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "keywords": [
+    "cypress",
+    "test",
+    "automaion",
+    "e2e"
+  ],
+  "author": "Mariane Santos",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1"
+  }
+}
