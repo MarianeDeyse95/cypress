@@ -14,10 +14,6 @@ describe("Tickets", () =>{
         
     });
 
-    it("Select two tickets", () =>{
-        cy.get("#ticket-quantity").select("2");
-    });
-
     it("Select 'vip' ticket type", () =>{
         cy.get("#vip").check();
     });
